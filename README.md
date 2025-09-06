@@ -25,11 +25,9 @@ Throughout the bootcamp, I’ll be covering:
 
 ```bash
 frontend-bootcamp/
-│── notes/        # Written notes & summaries
-│── exercises/    # Practice code snippets
-│── projects/     # Bigger projects & mini apps
-│── resources/    # Useful links, cheatsheets, docs
-└── README.md     # You are here!
+│── notes/       
+│── tasks/   
+└── README.md    
 ```
 
 ## 🎯 Goals
