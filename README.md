@@ -1,65 +1,56 @@
+# Frontend Bootcamp Journey 🚀
 
+Welcome to my **Frontend Bootcamp** documentation repo!
+This repository contains all my notes, projects, exercises, and resources as I go through the bootcamp step by step.
 
-# Mahan
+## 📌 About
 
-Welcome to  **My Repository** , a project developed as part of the Tech Stack Frontend 2025 course. This repository serves as a foundational task (Task 0) to demonstrate proficiency in modern frontend development practices.
+This repo is my personal learning log where I’ll track progress and build a solid foundation in frontend development.
+The goal is to **master the essentials** and build real-world projects while documenting everything I learn.
 
-## 🚀 Project Overview
+## 🛠️ Topics Covered
 
-this is a frontend application built using Next.js, a React framework that enables server-side rendering and static site generation. This project aims to showcase the integration of various frontend technologies and best practices.
+Throughout the bootcamp, I’ll be covering:
 
-## 🛠️ Technologies Used
+* **HTML5** – Structure & semantics
+* **CSS3** – Styling, layouts, Flexbox, Grid, animations
+* **JavaScript (ES6+)** – Core concepts, DOM, events, functions, OOP, async
+* **Version Control** – Git & GitHub workflow
+* **Responsive Design** – Mobile-first, media queries
+* **Frameworks & Libraries** – React (and possibly others)
+* **Build Tools** – npm, Webpack/Vite, etc.
+* **Projects** – Hands-on applications
 
-* **Next.js**: A React framework for building server-rendered applications.
-* **TypeScript**: A superset of JavaScript that adds static typing.
-* **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
-* **pnpm**: A fast, disk space-efficient package manager.
+## 📂 Repo Structure
 
-## 📁 Project Structure
+```bash
+frontend-bootcamp/
+│── notes/        # Written notes & summaries
+│── exercises/    # Practice code snippets
+│── projects/     # Bigger projects & mini apps
+│── resources/    # Useful links, cheatsheets, docs
+└── README.md     # You are here!
+```
 
-The project is organized as follows:
+## 🎯 Goals
 
-* `app/`: Contains the main application components and pages.
-* `components/`: Reusable UI components.
-* `hooks/`: Custom React hooks.
-* `lib/`: Utility functions and libraries.
-* `public/`: Static assets like images and fonts.
-* `styles/`: Global styles and Tailwind CSS configurations.
+* Build a strong foundation in frontend development.
+* Document everything for future reference.
+* Share progress publicly for accountability.
+* Create a portfolio of frontend projects.
 
-## 📦 Installation
+## 📖 Resources I Use
 
-To get started with the project, follow these steps:
+* [MDN Web Docs](https://developer.mozilla.org/)
+* [W3Schools](https://www.w3schools.com/)
+* [FreeCodeCamp](https://www.freecodecamp.org/)
+* [Frontend Mentor](https://www.frontendmentor.io/)
 
-1. Clone the repository:
+## 🚧 Status
 
-   ```bash
-   git clone https://github.com/tech-stack-frontend-2025/Mahan.git
-   cd Mahan
-   ```
+Ongoing – updating as I learn new topics!
 
-2. Install dependencies using pnpm:
+## 🤝 Contributing
 
-   ```bash
-   pnpm install
-   ```
+This repo is mostly for personal learning, but if you have suggestions, feel free to open an issue or PR.
 
-3. Run the development server:
-
-   ```bash
-   pnpm dev
-   ```
-
-   The application will be available at [http://localhost:3000](http://localhost:3000).
-
-## ⚙️ Configuration
-
-The project includes several configuration files:
-
-* `next.config.mjs`: Next.js configuration.
-* `postcss.config.mjs`: PostCSS configuration for Tailwind CSS.
-* `tsconfig.json`: TypeScript configuration.
-* `components.json`: Defines reusable components for the project.
-
-## 📝 License
-
-This project is licensed under the MIT License.
