@@ -1,31 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Login Page">
-  <title>Login</title>
-
-  <!-- Normalize CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-
-  <!-- External Stylesheet -->
   <link rel="stylesheet" href="styles.css">
+  <title>Login</title>
 </head>
+
 <body>
-  <main>
-    <section class="login-container">
-      <form class="login-form">
-        <h1>Login Here</h1>
-        <label for="username">Username</label>
-        <input type="text" id="username" name="username" required>
-
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" required>
-
-        <button type="submit">Submit</button>
-      </form>
-    </section>
-  </main>
+  <div class="container">
+    <form class="login-box">
+      <h1 class="title">Login</h1>
+      <input class="input" type="text" name="username" placeholder="Username" required>
+      <input class="input" type="password" name="password" placeholder="Password" required>
+      <button class="button" type="submit"><span>Submit</span></button>
+    </form>
+  </div>
 </body>
+
 </html>
