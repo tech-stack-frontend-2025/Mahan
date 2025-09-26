@@ -2,12 +2,12 @@ const addBtn = document.getElementById("addBtn");
 const taskInput = document.getElementById("taskInput");
 const taskList = document.getElementById("taskList");
 
-
+// Function to add a task
 function addTask() {
   const taskText = taskInput.value.trim();
   if (taskText === "") return;
 
-
+  // Create task item
   const li = document.createElement("li");
   li.className = "task";
 
@@ -23,7 +23,7 @@ function addTask() {
 
   const del = document.createElement("div");
   del.className = "delete";
-  del.innerHTML = "&#128465;";
+  del.innerHTML = "&#128465;"; // trash icon
   del.addEventListener("click", () => {
     taskList.removeChild(li);
   });
@@ -36,7 +36,7 @@ function addTask() {
   taskInput.value = "";
 }
 
-
+// Event listeners
 addBtn.addEventListener("click", addTask);
 taskInput.addEventListener("keypress", (e) => {
   if (e.key === "Enter") addTask();
